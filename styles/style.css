@@ -28,7 +28,7 @@ button {
     padding: 15px 25px 16px 26px;
 }
 
-.about-containar{
+.about-containar {
     background-color: rgba(250, 235, 215, 0.778);
     display: flex;
     justify-content: space-between;
@@ -40,10 +40,11 @@ button {
     height: 5px;
 }
 
-.about-items{
+.about-items {
     justify-items: right;
     padding: 200px 110px 110px 230px;
 }
+
 .about-items>h1 {
     color: #151414;
     font-family: Work Sans;
@@ -53,7 +54,8 @@ button {
     line-height: normal;
 }
 
-.about-items > p, ul {
+.about-items>p,
+ul {
     color: #444343;
     font-size: 16px;
     font-style: normal;
@@ -61,16 +63,16 @@ button {
     line-height: 26px;
 }
 
-.about-items > ul{
-    list-style-type:decimal-leading-zero ;
-} 
+.about-items>ul {
+    list-style-type: decimal-leading-zero;
+}
 
-.planing-section{
+.planing-section {
     text-align: center;
 
 }
 
-.planing-item{
+.planing-item {
     display: flex;
     width: 800px;
     margin-left: 25px;
@@ -79,7 +81,22 @@ button {
     margin-left: 200px;
 }
 
-.planing-manu{
+.planing-manu {
     background-color: rgba(255, 255, 255, 0.479);
     padding: 10px;
+}
+
+.calling-me {
+    border-radius: 8px;
+    background:url('../images/watch.png'), url('../images/gradient1.png') no-repeat;
+    margin: 20px 80px;
+}
+
+.call-option {
+    color: #FFF;
+    padding: 40px 50px ;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-image: url('../images/gradient1.png');
 }
